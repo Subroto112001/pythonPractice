@@ -50,3 +50,32 @@ elif(Light=="yellow"):
 elif(Light=="green"):
     print("You should go.")
 
+
+
+# Grading system of a student
+
+marks = int(input("Enter your marks: "))
+
+if marks < 0 or marks > 100:
+    print("Invalid marks!")
+
+elif marks >= 90:
+    print("Your grade is A+.")
+
+elif marks >= 80:
+    print("Your grade is A.")
+
+elif marks >= 70:
+    print("Your grade is B.")
+
+elif marks >= 60:
+    print("Your grade is C.")
+
+elif marks >= 50:
+    print("Your grade is D.")
+
+elif marks >= 40:
+    print("Your grade is F.")
+
+else:
+    print("Your grade is Out of world.")
